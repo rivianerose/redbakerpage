@@ -1,0 +1,345 @@
+@media (max-width: 1000px) {
+    header {
+        background: url(./imagens/background2.jpg) no-repeat center left ;
+        background-size:100%;
+        grid-area: header;
+        width: 100% ;
+    height: 400px;
+    }
+
+    header h1 {
+        font-family: 'Dancing Script', cursive;
+        margin: 0 auto;
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .red {
+        background-color: rgb(173, 19, 19);
+        width: 100%;
+        height: 60px;
+        
+    }
+    .container {
+        display: grid;
+        grid-template-columns:3fr ;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: "header header"
+                            "main main"
+                            "footer footer";
+     margin: 0 auto;
+     
+    }
+
+    main {
+        background-color: rgb(223, 219, 219);
+        grid-area: main;
+    }
+    .order {
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+     
+    }
+    .menu {
+        font-size: 10px;
+        
+    }
+    .menugeral h1 {
+        font-size: 20px;
+    }
+
+    .menugeral h2 {
+        font-size: 5px;
+        cursor: pointer;
+    }
+ #imagemcatalogo {
+overflow: hidden;
+transition: 1s;
+ }
+ .mostrar {
+    height: 32px;
+ }
+    #menuresponsivo{
+        
+      display: none;
+    }
+    
+    #menuresponsivo2 {
+        text-align: right;
+        position: absolute;
+        color: brown;
+        
+    }
+    #menuresponsivo2 ul {
+        list-style: none;
+        
+    }
+ 
+    .show{
+        display: block !important;
+        
+    }
+
+  
+    .menu img {
+        margin: 0 auto;
+       display: block;
+       cursor: pointer;
+       margin-top: -40px;
+    }
+    #number {
+        opacity: 0;
+    }
+
+    .cardapio {
+        margin: 10px 0px 0px 250px;
+    }
+
+    header button {
+        font-family: 'Dancing Script', cursive;
+        margin-left: 2vh;
+        font-size: 20px;
+        border-color: rgb(190, 8, 8);
+        background-color: red;
+        color: rgb(255, 255, 255);;
+    }
+
+    footer {
+        background-color: rgb(223, 219, 219);
+        grid-area: footer;
+    }
+    
+    .menugeral {
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    
+    .menu ul {
+        list-style: none;
+    }
+    
+    .menu li {
+    display: inline-block;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    }
+    .menu li:hover {
+            text-decoration: underline 3px red;
+            
+            
+    }
+    .menugeral h1 {
+        font-size: 25px;
+        
+    }
+    
+    .menugeral h2 {
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .order {
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+    }
+    
+    .order ul {
+        list-style: none;
+    }
+    
+    .order li {
+        display: inline-block;
+        padding: 10px;
+        cursor: pointer;
+        font-family: 'Poppins', sans-serif;
+        cursor: pointer;
+    }
+    
+    .order li:hover {
+    text-decoration: underline 3px red;
+    
+    }
+    .catalogo {
+        text-align: center;
+        display: block;
+    }
+
+    .imagem1 {
+        width: 100%;
+       
+    }
+
+    .imagem1 img {
+        width: 40%;
+        height: 300px;
+        display: block;
+        margin: 0 auto;
+
+    }
+
+    #mediaimg {
+        width: 60vw;
+      padding: 10px;
+        
+    }
+    .imagem2 {
+        display: block;
+        margin: 0 auto;
+    
+    }
+
+    .imagem3 {
+        display: block;
+        margin: 0 auto;
+        
+    }
+
+    .catalogo2 {
+        background-color: rgb(153, 19, 19);
+        font-family: 'Dancing Script', cursive;  
+        color: white;
+        width: 60%;
+        height: auto;
+        margin: 0 auto;
+       
+    }
+    
+    .catalogo2 ul {
+        
+        list-style: none;
+        text-align: center;
+             
+    }
+    .catalogo2 li {
+      
+        text-align: left;
+        font-family: 'Poppins', sans-serif;
+        cursor: pointer;
+        text-decoration: underline;
+        
+    }
+    .catalogo img {
+        margin-top: 20px;
+        width: 50%;
+        height: auto;
+    }
+    
+    .catalogo2 button {
+        text-align: center;
+       width: 15vw;
+       height: 4vh;
+       background-color: rgb(153, 19, 19);
+       color: white;
+       font-family: Arial, Helvetica, sans-serif;
+       border-radius: 10px;
+    }
+    
+    .aboutus {
+        text-align: center;
+        margin: 5vh;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .logoa {
+      display: block;
+    
+    }
+    .offer {
+        width: 90%;
+        height: 30vh;
+        text-align: center;
+        background-color: rgb(153, 19, 19);
+        margin: 0 auto;
+    }
+    
+    .offer h1 {
+        font-family: 'Dancing Script', cursive; 
+    }
+    
+    .offer p {
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .offer button {
+        margin-top: 20px;
+        width: 15vw;
+        height: 4vh;
+        background-color: rgb(153, 19, 19);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .logoa img {
+        display: block;
+        margin: 0 auto;
+    width: 90%;
+    height: 40vh;
+    }
+    
+    .aboutus2 {
+        text-align: center;
+        margin: 5vh;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .application {
+        text-align: center;
+    }
+    .application #iemail {
+        text-align: center;
+        border: 2px solid red;
+        color: black ;
+        width: 30vw;
+        border-radius: 10px;
+        height: 3.5vh;
+    }
+    
+    .application #sub {
+        background-color: red;
+        color: white;
+        width: 15vw;
+        height: 4vh;
+        border-radius: 10px;
+    }
+    
+    .foot {
+        margin-top: 20vh;
+        display: flex;
+       
+        justify-content: space-evenly;
+        background-color: rgb(153, 19, 19);
+        color: white;
+        
+    }
+    .foot h1 {
+        font-size: 12px;
+        font-family: 'Dancing Script', cursive; 
+    }
+    .foot ul {
+        list-style: none;
+        margin-right: 10px;
+        color: white;
+      
+        
+    }
+    
+    .foot li {
+        display: inline-block;
+        text-align: center;
+        padding: 3px;
+        cursor: pointer;
+        font-family: 'Poppins', sans-serif;
+        font-size: 10px;
+        width: 100%;
+        color: white;
+        
+    }
+    
+    .foot a {
+        cursor: pointer;
+        color: white;  
+        text-decoration: none;
+    }
+    
+}
